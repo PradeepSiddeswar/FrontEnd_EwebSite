@@ -1,0 +1,28 @@
+/* ShipTable.css */
+
+.ship-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .ship-table th,
+  .ship-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .ship-table th {
+    background-color: #f2f2f2;
+    color:#e57588;
+  }
+  
+  .ship-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .ship-table tr:hover {
+    background-color: #ddd;
+  }
+  

@@ -1,0 +1,12 @@
+@keyframes moveImage {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(50px); /* Adjust the distance and direction as needed */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

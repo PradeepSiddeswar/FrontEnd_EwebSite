@@ -1,0 +1,17 @@
+.tagline {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    background-color: #f5a623; /* Background color of the tagline */
+    padding: 30px 20px; 
+    clip-path: polygon(0 0, 0 100%, 100% 0); /* Create a slightly larger triangular shape */
+    color: white;
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold;
+  }
+  .rotate {
+    transform: rotate(-17deg); /* Adjust the degree to control the rotation */
+    transform-origin: bottom left;
+  }
+

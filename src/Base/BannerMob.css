@@ -1,0 +1,15 @@
+.image-container {
+    position: relative;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the text */
+    color: white; /* Text color */
+    padding: 10px;
+    text-align: center;
+  }
+  
